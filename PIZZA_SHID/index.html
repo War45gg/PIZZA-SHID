@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,regular,500,600,700" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pizza Shid</title>
+</head>
+<body>
+    <div class="_wrapper">
+        <header class="header">
+            <div class="_container header_container">
+                <div class="header_wrapper">
+                    <div class="logo_wrapper">
+                        <img src="./img/header/logo.svg" alt="logo_pizza" class="logo">
+                        <h2 class="logo_title">Pizza Shid</h2>
+                    </div>
+                    <nav class="menu">
+                        <ul class="menu_list">
+                            <li class="menu_iteam _active"><a href="#">Home</a></li>
+                            <li class="menu_iteam"><a href="#">Menu</a></li>
+                            <li class="menu_iteam"><a href="#">Delivery</a></li>
+                            <li class="break"></li>
+                            <li class="menu_iteam"><a href="#">About</a></li>
+                            <li class="menu_iteam"><a href="#">Blog</a></li>
+                        </ul>
+                    </nav>
+                    <div class="btn_wrapper">
+                        <div class="icon_btn">
+                            <button><img class="search" src="./img/header/serch.svg" alt="serch"></button>
+                            <button><img class="buycar" src="./img/header/buycar.svg" alt="buycar"></button>
+                        </div>
+                        <button class="_border_btn header_btn">Sign in</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hero">
+                <div class="_container hero_container">
+                    <div class="hero_wrapper">
+                        <div class="hero_intro">
+                            <h1 class="main_title">
+                                <span>We Have The</span> Best&nbsp;pizza!
+                            </h1>
+                            <p class="subtitle">Time to enjoy our delicious pizza.</p>
+                            <button class="_border_btn hero_btn">ORDER ONLINE</button>
+                        </div>
+                        <img src="./img/hero/gradient_pizza.png" alt="pizza" class="pizza">
+                    </div>
+                </div>
+            </section>
+            <section class="buying">
+                <div class="_container buying_container">
+                    <h2 class="buying_title">Trending Recipes</h2>
+                    <ul class="buying_list">
+                        <li class="buying_iteams">
+                            <img src="./img/buing/chees_pizza.png" alt="pizza" class="look">
+                            <h3 class="iteams_title">Cheese Lovers</h3>
+                            <p class="buing_subtitle">Combination of Alfredo sauce and two cheeses – Romano, and Parmesan.</p>
+                            <span class="price">$20.00</span>
+                            <div class="form_group">
+                                <div class="dropdown">
+                                    <button class="dropdown_btn" data-btn>Regular</button>
+                                    <ul class="dropdown_list _hidden" data-list>
+                                        <li class="dropdown_iteam" data-value="small" data-num="1">Small</li>
+                                        <li class="dropdown_iteam" data-value="huge" data-num="1">Huge</li>
+                                    </ul>
+                                    <input type="text" name="size" value="" class="dropdown_input _hidden" data-input>
+                                </div>
+                            </div>
+                            <button class="_border_btn buying_btn">Add to cart</button>
+                        </li>
+                        <li class="buying_iteams">
+                            <img src="./img/buing/peperoni.png" alt="pizza" class="look">  
+                            <h3 class="iteams_title">Cheese Lovers</h3>
+                            <p class="buing_subtitle">Pizza with homemade spicy beef sausage</p>
+                            <span class="price">$25.00</span>
+                            <div class="form_group">
+                                <div class="dropdown">
+                                    <button class="dropdown_btn" data-btn>Regular</button>
+                                    <ul class="dropdown_list _hidden" data-list>
+                                        <li class="dropdown_iteam" data-value="small" data-num="2">Small</li>
+                                        <li class="dropdown_iteam" data-value="huge" data-num="2">Huge</li>
+                                    </ul>
+                                    <input type="text" name="size" value="" class="dropdown_input _hidden" data-input>
+                                </div>
+                            </div>
+                            <button class="_border_btn buying_btn">Add to cart</button>
+                        </li>
+                        <li class="buying_iteams">
+                            <img src="./img/buing/margarita.png" alt="pizza" class="look">
+                            <h3 class="iteams_title">Cheese Lovers</h3>
+                            <p class="buing_subtitle">Made with San Marzano tomatoes, mozzarella cheese, and fresh basil.</p>
+                            <span class="price">$35.00</span>
+                            <div class="form_group">
+                                <div class="dropdown">
+                                    <button class="dropdown_btn" data-btn>Regular</button>
+                                    <ul class="dropdown_list _hidden" data-list>
+                                        <li class="dropdown_iteam" data-value="small" data-num="3">Small</li>
+                                        <li class="dropdown_iteam" data-value="huge" data-num="3">Huge</li>
+                                    </ul>
+                                    <input type="text" name="size" value="" class="dropdown_input _hidden" data-input>
+                                </div>
+                            </div>
+                            <button class="_border_btn buying_btn">Add to cart</button>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="_container">
+            </div>
+        </footer>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
